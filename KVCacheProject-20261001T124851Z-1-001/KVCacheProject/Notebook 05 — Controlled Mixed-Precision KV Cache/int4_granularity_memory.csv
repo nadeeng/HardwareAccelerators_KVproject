@@ -1,0 +1,4 @@
+Scheme,Scales / Logical Page,Scale Metadata (KiB),INT4 Page Memory (KiB),Saving vs FP16 Page (%)
+Per-page,56,0.21875,112.21875,74.951171875
+Per-vector,1792,7.0,119.0,73.4375
+K/V-aware,8064,31.5,143.5,67.96875

@@ -1,0 +1,21 @@
+{
+    "model": "Qwen/Qwen2.5-1.5B",
+    "evaluation_dataset": "WikiText-2 test",
+    "evaluation_tokens": 2048,
+    "target_tokens": 2047,
+    "page_size": 16,
+    "cache_evaluation": "page-wise autoregressive cache-aware evaluation",
+    "quantization_method": "symmetric per-layer, per-page, per-K/V quantization",
+    "fp16_ppl": 6.973643281865264,
+    "fp16_memory_mib": 56.0,
+    "int8_ppl": 6.980422934522596,
+    "int8_delta_ppl": 0.006779652657332491,
+    "int8_relative_ppl_change_percent": 0.0972182313219605,
+    "int8_memory_mib": 28.027344,
+    "int8_memory_saving_percent": 49.951172,
+    "int4_ppl": 5772.075090327577,
+    "int4_delta_ppl": 5765.101447045711,
+    "int4_ppl_ratio_vs_fp16": 827.6986443137511,
+    "int4_memory_mib": 14.027344,
+    "int4_memory_saving_percent": 74.951172
+}

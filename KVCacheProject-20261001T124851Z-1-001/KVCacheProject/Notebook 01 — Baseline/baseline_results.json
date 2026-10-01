@@ -1,0 +1,23 @@
+{
+    "model": "Qwen/Qwen2.5-1.5B",
+    "dtype": "torch.float16",
+    "parameters": 1543714304,
+    "num_layers": 28,
+    "hidden_size": 1536,
+    "attention_heads": 12,
+    "kv_heads": 2,
+    "head_dim": 128,
+    "kv_bytes_per_element": 2,
+    "kv_cache_per_token_kib": 28.0,
+    "kv_cache_256_tokens_mib": 7.0,
+    "cache_prefill_length": 128,
+    "cache_after_decode_length": 129,
+    "cached_max_logit_diff": 0.0244140625,
+    "cached_mean_logit_diff": 0.003749014576897025,
+    "wikitext_test_tokens": 299078,
+    "ppl_context_window": 2048,
+    "ppl_stride": 1024,
+    "evaluated_loss_tokens": 299077,
+    "average_nll": 2.1130760886148545,
+    "perplexity": 8.27365266953322
+}

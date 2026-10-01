@@ -1,0 +1,20 @@
+{
+    "model": "Qwen/Qwen2.5-1.5B",
+    "sequence_length": 2048,
+    "page_size_tokens": 16,
+    "num_pages": 128,
+    "num_layers": 28,
+    "kv_heads": 2,
+    "head_dim": 128,
+    "fp16_kv_cache_mib": 56.0,
+    "fp16_memory_per_page_kib": 448.0,
+    "first_page_token_range": [
+        0,
+        15
+    ],
+    "last_page_token_range": [
+        2032,
+        2047
+    ],
+    "paging_lossless": true
+}

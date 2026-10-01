@@ -1,0 +1,19 @@
+{
+    "model": "Qwen/Qwen2.5-1.5B",
+    "sequence_length": 2048,
+    "page_size": 16,
+    "num_layers": 28,
+    "num_pages": 128,
+    "quantization_method": "symmetric per-layer, per-page, per-K/V uniform quantization",
+    "num_measurements": 14336,
+    "int8_key_mean_nrmse": 0.016091242796730694,
+    "int8_value_mean_nrmse": 0.01433007686329619,
+    "int4_key_mean_nrmse": 0.27378752138361884,
+    "int4_value_mean_nrmse": 0.2587422350306226,
+    "fp16_memory_mib": 56.0,
+    "int8_memory_mib": 28.02734375,
+    "int4_memory_mib_packed": 14.02734375,
+    "int8_memory_saving_percent": 49.951171875,
+    "int4_memory_saving_percent": 74.951171875,
+    "scale_metadata_kib": 28.0
+}

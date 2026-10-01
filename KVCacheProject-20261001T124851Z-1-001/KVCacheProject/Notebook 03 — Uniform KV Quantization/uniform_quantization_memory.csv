@@ -1,0 +1,4 @@
+Precision,Payload (MiB),Scale Overhead (KiB),Total Memory (MiB),Memory Saving (%)
+FP16,56.0,0.0,56.0,0.0
+INT8,28.0,28.0,28.02734375,49.951171875
+INT4,14.0,28.0,14.02734375,74.951171875

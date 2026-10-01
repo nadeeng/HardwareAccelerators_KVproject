@@ -1,0 +1,23 @@
+{
+    "model": "Qwen/Qwen2.5-1.5B",
+    "evaluation_tokens": 2048,
+    "page_size": 16,
+    "num_pages": 128,
+    "sensitivity_horizon": 128,
+    "candidate_pages": 115,
+    "uniform_int8_ppl": 6.980422934522596,
+    "uniform_int8_memory_mib": 28.02734375,
+    "selected_int4_scheme": "per-vector",
+    "per_vector_int4_page_memory_kib": 119.0,
+    "per_vector_int4_page_saving_vs_fp16_percent": 73.4375,
+    "most_sensitive_page": 12,
+    "most_sensitive_delta_nll": 1.6825235486030579,
+    "least_sensitive_page": 37,
+    "least_sensitive_delta_nll": -0.004689441528171301,
+    "oracle_10_int4_pages": 10,
+    "oracle_10_memory_mib": 26.99981689453125,
+    "oracle_10_ppl": 7.604367155411398,
+    "default_precision": "INT8",
+    "main_finding": "KV pages exhibit highly non-uniform INT4 sensitivity; sensitivity-based selection greatly outperforms recency.",
+    "next_stage": "Predict page sensitivity using inference-time signals such as attention and recency."
+}
